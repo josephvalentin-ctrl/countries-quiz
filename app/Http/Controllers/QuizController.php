@@ -4,18 +4,16 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class quiz_controller extends Controller
+class QuizController extends Controller
 {
-
     public function index()
     {
-
+        return view('index');
     }
 
-    public function post_answer()
+    public function postAnswer()
     {
 
     }
-
 }
 
