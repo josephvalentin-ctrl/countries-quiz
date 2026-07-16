@@ -6,5 +6,5 @@ use App\Http\Controllers\QuizController;
 Route::get('/', [QuizController::class, 'index'])
     ->name('index');
 
-Route::get('/post-answer', [QuizController::class, 'postAnswer'])
+Route::post('/post-answer', [QuizController::class, 'postAnswer'])
     ->name('post.answer');
