@@ -13,7 +13,8 @@
 
 <body>
     <div class="container mt-5">
-    <h1 class="display-1 text-center"> Guess the Capital</h1>
+    <div class="text-center">
+    <h1 class="display-1"> Guess the Capital</h1>
 
 
 
